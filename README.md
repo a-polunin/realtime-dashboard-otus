@@ -17,5 +17,9 @@ WebSocket/SSE.
 - [`docs/01-quality-attributes.md`](docs/01-quality-attributes.md) — драйверы и атрибуты качества (ISO 25010)
 - [`docs/02-utility-tree.md`](docs/02-utility-tree.md) — дерево полезности и сценарии (S1–S5)
 - [`docs/03-trade-off.md`](docs/03-trade-off.md) — анализ ключевого архитектурного trade-off'а
+- [`docs/04-capabilities.md`](docs/04-capabilities.md) — возможности и типы поддоменов (core/supporting/generic)
+- [`docs/05-service-boundaries.md`](docs/05-service-boundaries.md) — границы сервисов: ответственность и владение данными
+- [`docs/06-cohesion-coupling.md`](docs/06-cohesion-coupling.md) — проверка cohesion/coupling и риск связанности
+- [`docs/07-services-diagram.md`](docs/07-services-diagram.md) — диаграмма сервисов и пример DIP
 - [`docs/adr/`](docs/adr/) — Architecture Decision Records
 - [`docs/views/`](docs/views/) — C4-диаграммы (Context, Container) и исходники в Excalidraw
