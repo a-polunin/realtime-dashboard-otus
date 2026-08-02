@@ -21,5 +21,6 @@ WebSocket/SSE.
 - [`docs/05-service-boundaries.md`](docs/05-service-boundaries.md) — границы сервисов: ответственность и владение данными
 - [`docs/06-cohesion-coupling.md`](docs/06-cohesion-coupling.md) — проверка cohesion/coupling и риск связанности
 - [`docs/07-services-diagram.md`](docs/07-services-diagram.md) — диаграмма сервисов и пример DIP
+- [`docs/08-event-storming.md`](docs/08-event-storming.md) — Event Storming, Bounded Context, Context Map и сверка с границами сервисов
 - [`docs/adr/`](docs/adr/) — Architecture Decision Records
 - [`docs/views/`](docs/views/) — C4-диаграммы (Context, Container) и исходники в Excalidraw

@@ -7,5 +7,6 @@
 - [05-service-boundaries.md](05-service-boundaries.md) — границы сервисов: ответственность и владение данными
 - [06-cohesion-coupling.md](06-cohesion-coupling.md) — проверка cohesion/coupling и риск связанности
 - [07-services-diagram.md](07-services-diagram.md) — диаграмма сервисов и пример DIP
+- [08-event-storming.md](08-event-storming.md) — Event Storming, Bounded Context, Context Map и сверка с границами сервисов
 - [adr/](adr/) — Architecture Decision Records
 - [views/](views/) — C4-диаграммы (Context, Container) и исходники в Excalidraw
