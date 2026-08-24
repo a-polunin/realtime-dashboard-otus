@@ -10,5 +10,6 @@
 - [08-event-storming.md](08-event-storming.md) — Event Storming, Bounded Context, Context Map и сверка с границами сервисов
 - [09-rendering-model.md](09-rendering-model.md) — модель рендеринга: CSR vs SSR vs SSG, code splitting
 - [10-cicd.md](10-cicd.md) — пайплайн CI/CD, окружения, CDN, масштабирование
+- [11-frontend-architecture.md](11-frontend-architecture.md) — раскладка фронтенд-кода по фичам, почему FSD не нужен на этом масштабе
 - [adr/](adr/) — Architecture Decision Records
 - [views/](views/) — C4-диаграммы (Context, Container) и исходники в Excalidraw
