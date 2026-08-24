@@ -13,5 +13,6 @@
 - [11-frontend-architecture.md](11-frontend-architecture.md) — раскладка фронтенд-кода по фичам, почему FSD не нужен на этом масштабе
 - [12-risk-matrix.md](12-risk-matrix.md) — матрица рисков проекта
 - [13-slo-sli.md](13-slo-sli.md) — SLO/SLI по узлам системы
+- [14-degradation-map.md](14-degradation-map.md) — карта деградации для веба и приложения для React Native
 - [adr/](adr/) — Architecture Decision Records (в т.ч. [ADR-02](adr/02-monolith-frontend-single-repo.md) — monorepo vs микрофронтенды vs монолит для фронтенда)
 - [views/](views/) — C4-диаграммы (Context, Container) и исходники в Excalidraw
