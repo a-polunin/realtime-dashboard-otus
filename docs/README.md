@@ -14,5 +14,11 @@
 - [12-risk-matrix.md](12-risk-matrix.md) — матрица рисков проекта
 - [13-slo-sli.md](13-slo-sli.md) — SLO/SLI по узлам системы
 - [14-degradation-map.md](14-degradation-map.md) — карта деградации для веба и приложения для React Native
-- [adr/](adr/) — Architecture Decision Records (в т.ч. [ADR-02](adr/02-monolith-frontend-single-repo.md) — monorepo vs микрофронтенды vs монолит для фронтенда)
-- [views/](views/) — C4-диаграммы (Context, Container) и исходники в Excalidraw
+- [15-clients-and-scenarios.md](15-clients-and-scenarios.md) — клиенты системы (веб, React Native, партнёрский API) и их сценарии
+- [16-entry-layer.md](16-entry-layer.md) — слой входа: нужен ли отдельный BFF, что выносим на шлюз, а что оставляем сервисам
+- [17-caching/](17-caching/) — кэширование: [данные и точки](17-caching/01-data-and-points.md), [стратегии инвалидации](17-caching/02-invalidation.md), [вопросы к бэкенду](17-caching/03-backend-questions.md)
+- [18-sync-async.md](18-sync-async.md) - синхронное и асинхронное взаимодействие: где пользователь ждёт ответ, оркестрация или хореография, контракты эндпоинта и события
+- [19-idempotency.md](19-idempotency.md) — идемпотентность и коммутативность: ключи идемпотентности, места отметки и дедупликация повторов
+- [20-auth-model.md](20-auth-model.md) — аутентификация и авторизация: роли пользователей, схема входа и где проверяется подпись токена, выбор RBAC+ABAC, операции с проверкой принадлежности объекта
+- [adr/](adr/) — Architecture Decision Records (в т.ч. [ADR-03](adr/03-entry-layer-gateway-without-bff.md) — один API Gateway без отдельных BFF, [ADR-04](adr/04-object-access-check-in-service.md) — проверку принадлежности объекта делает сервис)
+- [views/](views/) — C4-диаграммы (Context, Container), [схема слоя входа](views/entry-layer/entry-layer.md) и исходники в Excalidraw
